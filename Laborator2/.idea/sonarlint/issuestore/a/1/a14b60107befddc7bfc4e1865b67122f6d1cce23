@@ -1,0 +1,17 @@
+
+w
+java:S1066."/Merge this if statement with the enclosing one.(ŞÓ‚ûÿÿÿÿ8ä–’Íâ1J$2b8ebf01-2805-400f-934a-fa94878dc1f2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8è–’Íâ1J$58e82a68-1d29-4922-b179-35158f8b4f5a
+œ
+java:S1450"TRemove the "tours" field and declare it as a local variable in the relevant methods.(İşç«øÿÿÿÿ8ù–’Íâ1J$3fe21bff-e9a2-4744-91d1-f64f24a720fc
+›
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 129 to the 15 allowed.(¼Šòÿÿÿÿÿ8—’Íâ1J$972acc3b-0d59-4b1c-8116-dabdef955019
+~
+java:S2696"6Make the enclosing method "static" or remove this set.(Š˜´ñúÿÿÿÿ8„—’Íâ1J$c9e5c39f-5e55-4e1c-8bbc-c0fa15fab4b5
+~
+java:S2696$"6Make the enclosing method "static" or remove this set.(ûÍŞØúÿÿÿÿ8…—’Íâ1J$8c65db5c-18b2-43bd-bfba-a3a961df6f23
+f
+java:S2119H"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8——’Íâ1J$12b7a603-bcd5-4fa6-bf2a-ddfaa53b54a4
+m	java:S106o"+Replace this use of System.out by a logger.(ÖëŞá8š—’Íâ1J$70bf6f6b-c05d-4268-9029-80950855bc3e
+
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 78 to 64, Complexity from 30 to 14, Nesting Level from 10 to 2, Number of Variables from 19 to 6.(¼Šòÿÿÿÿÿ8›—’Íâ1J$309f3dc5-8739-48f1-866e-e88b57fbac1d
