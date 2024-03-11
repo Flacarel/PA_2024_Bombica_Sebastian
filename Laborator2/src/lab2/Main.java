@@ -8,6 +8,7 @@ public class Main {
         lab2.homework();
 
     }
+
     public void homework() {
         Client client1 = new Client("Client1", LocalTime.of(8, 0), LocalTime.of(22, 0), Client.Type.REGULAR);
         Client client2 = new Client("Client2", LocalTime.of(15, 20), LocalTime.of(17, 15), Client.Type.REGULAR);

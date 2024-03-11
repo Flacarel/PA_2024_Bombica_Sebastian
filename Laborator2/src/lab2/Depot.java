@@ -24,10 +24,10 @@ public class Depot {
     public void setName(String name) {
         this.name = name;
     }
-   /**
-   * @param vehicles
-   * This method sets the vehicles of the depot
-   * */
+
+    /**
+     * @param vehicles This method sets the vehicles of the depot
+     */
     public void setVehicles(Vehicle... vehicles) {
         Vehicle[] vehicles1 = new Vehicle[vehicles.length];
         int i = 0;

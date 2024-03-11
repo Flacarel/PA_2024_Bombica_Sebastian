@@ -1,10 +1,10 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8òÂƒÍâ1J$a2cc1f42-6e0d-4e48-94ab-c6a658ce8108
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û8òÂƒÍâ1J$d4684424-1071-4c64-8e01-64e149b53736
 “
-java:S1206A"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8øÂƒÍâ1J$52dcfc53-9640-4799-ae85-baa3be036f92
+java:S1206A"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8øÂƒÍâ1J$06eb8003-adc5-46a7-a97e-97e5f3e9c07c
 †
-java:S6201*"DReplace this instanceof check and cast with 'instanceof Drone drone'(ô«Äw8Ÿ®ÄÍâ1J$d603e859-6006-4f69-a849-dff51683ead7
+java:S6201*"DReplace this instanceof check and cast with 'instanceof Drone drone'(ô«Äw8Ÿ®ÄÍâ1J$fa313493-bd2d-4257-9e6a-82446a541e21
 ‡
-java:S6201-"DReplace this instanceof check and cast with 'instanceof Truck truck'(òÔçÑ8 ®ÄÍâ1J$a3bf3d5f-5736-4a0d-8cb8-2822cd0009e8
+java:S6201-"DReplace this instanceof check and cast with 'instanceof Truck truck'(òÔçÑ8 ®ÄÍâ1J$65dcff1f-b87a-4caf-8ad5-8e55b2105206
 ‘
-java:S4201B"IRemove this unnecessary null check; "instanceof" returns false for nulls.(‹Ôìóúÿÿÿÿ8…ÃƒÍâ1J$a18d4658-f991-44ac-b577-b09261d2fff2
+java:S4201B"IRemove this unnecessary null check; "instanceof" returns false for nulls.(‹Ôìóúÿÿÿÿ8…ÃƒÍâ1J$aab42bfc-6c91-4556-9257-8e247c4b1d69

@@ -19,9 +19,8 @@ public class Tour {
     }
 
     /**
-     * @param clients
-     * Set the clients of the tour.
-     * Make sure that the clients are unique.
+     * @param clients Set the clients of the tour.
+     *                Make sure that the clients are unique.
      */
     public void setClients(Client... clients) {
         Client[] clients1 = new Client[clients.length];
@@ -65,8 +64,7 @@ public class Tour {
     }
 
     /**
-     * @param arrivalTime
-     * Add an arrival time to the list of arrival times
+     * @param arrivalTime Add an arrival time to the list of arrival times
      */
     public void addArrivalTime(LocalTime arrivalTime) {
         if (this.arrivalTime == null) {
@@ -83,9 +81,8 @@ public class Tour {
     }
 
     /**
-     * @param client
-     * Add a client to the list of clients
-     * Make sure that the client is unique
+     * @param client Add a client to the list of clients
+     *               Make sure that the client is unique
      */
     public int addClient(Client client) {
         if (clients == null) {

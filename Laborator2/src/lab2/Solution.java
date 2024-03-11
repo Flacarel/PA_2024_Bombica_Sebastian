@@ -17,15 +17,13 @@ public class Solution {
     private static Tour[] tours;
 
     /**
-     * @param problem
-     * This methode implements a greedy algorithm to solve the problem.
-     * The distances between the clients are generated randomly.
-     * Each step, the algorithm chooses the closest client to the current client or depot.
-     * Each tour ends when there are no more clients to visit.
-     *
+     * @param problem This methode implements a greedy algorithm to solve the problem.
+     *                The distances between the clients are generated randomly.
+     *                Each step, the algorithm chooses the closest client to the current client or depot.
+     *                Each tour ends when there are no more clients to visit.
      */
     public void solveHomework(Problem problem) {
-         tours = new Tour[100];
+        tours = new Tour[100];
         int i = 0;
         boolean notFinished = true;
         while (notFinished) {
