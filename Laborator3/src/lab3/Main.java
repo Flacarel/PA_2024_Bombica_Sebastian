@@ -24,7 +24,14 @@ public class Main {
         attractions.add(statue);
         trip.setAttractions(attractions);
         System.out.println(trip);
+        System.out.println();
 
+        TravelPlan travelPlan = new TravelPlan();
+        travelPlan.addAttraction(concert, LocalDate.of(2021, 6, 1));
+        travelPlan.addAttraction(church, LocalDate.of(2021, 6, 2));
+        travelPlan.addAttraction(statue, LocalDate.of(2021, 6, 3));
+
+        System.out.println(travelPlan);
     }
 
 
