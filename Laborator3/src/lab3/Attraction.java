@@ -1,9 +1,23 @@
+
 package lab3;
 
-public abstract class Attraction implements Comparable<Attraction>{
+public abstract class Attraction implements Comparable<Attraction> {
     private String name;
     private String description;
     private String image;
+
+    public Attraction() {
+    }
+
+    public Attraction(String name) {
+        this.name = name;
+    }
+
+    public Attraction(String name, String description, String image) {
+        this.name = name;
+        this.description = description;
+        this.image = image;
+    }
 
     public String getName() {
         return name;
@@ -29,15 +43,6 @@ public abstract class Attraction implements Comparable<Attraction>{
         this.image = image;
     }
 
-    public Attraction(String name, String description, String image) {
-        this.name = name;
-        this.description = description;
-        this.image = image;
-    }
-
-    public Attraction() {
-    }
-
     @Override
     public String toString() {
         return "Attraction{" +
@@ -49,11 +54,9 @@ public abstract class Attraction implements Comparable<Attraction>{
 
     @Override
     public int compareTo(Attraction o) {
-        if(name!=null)
-            return name.compareTo(o.name);
-        else
-            return -1;
+        if (name != null) {
+            return this.name.compareTo(o.name);
+        }
+        return 1;
     }
 }
-
-

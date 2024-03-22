@@ -1,9 +1,35 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8Å¦Ô’ã1J$82e48726-a56d-4edf-a27a-60f4f827fee3
-m	java:S106"+Replace this use of System.out by a logger.(á„ï‘8Õ¦Ô’ã1J$b1ecd7d0-513b-4eca-9c52-53fad933f039
-m	java:S106"+Replace this use of System.out by a logger.(üáğÉ8Ö¦Ô’ã1J$8178cc19-a7e2-4235-afad-6f96b3cc1f01
-m	java:S106"+Replace this use of System.out by a logger.(ç‘³¬8Ö¦Ô’ã1J$75738d21-abbf-444a-bff8-31365f949b13
-r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8×¦Ô’ã1J$825bcf73-e88f-48dc-b0f5-7263aaa16a10
-r	java:S106"+Replace this use of System.out by a logger.(ñµıÿÿÿÿ8Ú¦Ô’ã1J$22fca101-65fe-47b9-8f48-11db9f68fee8
-r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Ú¦Ô’ã1J$38504383-7705-4b21-be99-124c79656fc5
-G	java:S106""+Replace this use of System.out by a logger.(ğÌƒÙ8–©Û’ã1
+’
+java:S1192"JDefine a constant instead of duplicating this literal "Bucharest" 3 times.(«¶şàşÿÿÿÿ8ÓÁçä1J$b9dd1551-3ed5-40ac-8d7e-eac010f9d0bd
+
+java:S1192"KDefine a constant instead of duplicating this literal "statue.jpg" 4 times.(©Ûé‘8ÓÁçä1J$11ac76fb-cf0f-4d89-92a2-b2f553f06838
+§
+java:S1192"dDefine a constant instead of duplicating this literal "The most famous statue in the world" 3 times.(©Ûé‘8ÔÁçä1J$79bf9ccf-8b18-4997-a8bd-ad44e92ca919
+
+java:S1192"VDefine a constant instead of duplicating this literal "The best concert ever" 4 times.(€¶Şšşÿÿÿÿ8ÔÁçä1J$a5dc6392-a8d0-4266-aa4d-64d46d006ac3
+
+java:S1192"KDefine a constant instead of duplicating this literal "St. Joseph" 3 times.(ô®ÛŞ8ÔÁçä1J$6529f095-3d9b-4b02-b35b-4b92779bb94c
+¢
+java:S1192"_Define a constant instead of duplicating this literal "The oldest church in Bucharest" 3 times.(ô®ÛŞ8ÔÁçä1J$6da74f54-ce0a-4c69-9404-3d5cb047e864
+•
+java:S1192"RDefine a constant instead of duplicating this literal "Statue of Liberty" 3 times.(©Ûé‘8ÔÁçä1J$52cd3c1c-ef35-46e1-a041-460da142e32e
+
+java:S1192"KDefine a constant instead of duplicating this literal "church.jpg" 5 times.(ô®ÛŞ8ÔÁçä1J$12956e11-90bf-4c2a-8f85-e0d2f5a8eb24
+‘
+java:S1192"IDefine a constant instead of duplicating this literal "acdc.jpg" 3 times.(€¶Şšşÿÿÿÿ8ÔÁçä1J$7bcc0b98-dcc6-4d64-ab7c-3fa8c830a49f
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8×Áçä1J$ebcd84d0-64c2-4b53-89ab-7687aeaddb9a
+ƒ	java:S125
+"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8…Âçä1J$bc87919d-a9e1-489c-a6fb-42a33fa06929
+m	java:S106"+Replace this use of System.out by a logger.(  èÀ8ˆÂçä1J$f2d3af63-c547-4ff2-bf66-db4501e9118b
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ˆÂçä1J$80150d35-9a08-467a-9eb9-9b3bee060a94
+m	java:S106"+Replace this use of System.out by a logger.(½ŒÀ†8‰Âçä1J$505f1d20-c60f-4ef9-868e-f4fd987dde46
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8‰Âçä1J$8ef043d4-89eb-4be0-9a49-9c26da80eb71
+r	java:S106"+Replace this use of System.out by a logger.(è„Îøûÿÿÿÿ8ŠÂçä1J$f8ea0f0d-ea1b-46a7-a80f-9fdf79a1dca2
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ŠÂçä1J$517e060f-fa88-4123-8bb2-de48ce980831
+m	java:S106#"+Replace this use of System.out by a logger.(ëİ»Ş8‹Âçä1J$6e4dac95-15b3-454a-8c3a-b0b6aa200851
+r	java:S106$"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8‹Âçä1J$a85a8b42-9b8b-4d95-9f07-3795e55e12c5
+r	java:S1065"+Replace this use of System.out by a logger.(™ÂŠùÿÿÿÿ8Âçä1J$a29f76c3-db62-4650-842e-9c2aaa90ca9c
+r	java:S1066"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Âçä1J$0877eb92-b13f-4a6c-b66a-5aa9c50e0ca1
+r	java:S106l"+Replace this use of System.out by a logger.(™ÂŠùÿÿÿÿ8–Âçä1J$d6631d24-18df-427e-b125-0f1ccccf3fce
+r	java:S106m"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8–Âçä1J$2d393f6c-9772-4355-947d-c3fcdae7309c
+m	java:S106v"+Replace this use of System.out by a logger.(½ÇâØ8—Âçä1J$8bbc3b94-c7a1-47cd-9d7f-b0de2fc14ad8

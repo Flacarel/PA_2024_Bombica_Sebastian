@@ -1,8 +1,10 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8û†®Äâ1J$d4e4c0e7-1749-4399-bfb6-da51d5a21ded
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8•Ş±¼ä1J$9338e0fd-a818-4a3c-b057-66520228470a
 ¡
-java:S12103"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(äÑ€Æøÿÿÿÿ8‡®Äâ1J$c0dd7b83-ebea-45d9-a2e2-a46a181cb5de
+java:S12108"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(äÑ€Æøÿÿÿÿ8œŞ±¼ä1J$29eec95f-b16e-4f5c-ab1b-9cb6564a8d29
 |
-java:S5993 "9Change the visibility of this constructor to "protected".(œºó£8ƒ‡®Äâ1J$800b200f-ae65-4857-bff6-18931cfb3571
+java:S5993	"9Change the visibility of this constructor to "protected".(Ÿè´8Ş±¼ä1J$33b77122-271e-4cec-a1cd-d86c1740dc5b
+
+java:S5993"9Change the visibility of this constructor to "protected".(óòš¼şÿÿÿÿ8Ş±¼ä1J$7c4ab31f-7295-469f-99c9-b070a2c74468
 |
-java:S5993&"9Change the visibility of this constructor to "protected".(Ÿè´8ƒ‡®Äâ1J$97bda44e-7bd0-46f4-ae81-5f44216f01b1
+java:S5993"9Change the visibility of this constructor to "protected".(œºó£8Ş±¼ä1J$9042ed3d-e152-471c-abed-b7136336ab8d

@@ -21,3 +21,5 @@ B
 src/lab3/Pair.java,b\9\b91044ef7c8d8c6d74bdc5b4266aff09e500a48e
 H
 src/lab3/TravelPlan.java,6\9\694bc78ead9fb8d1ef95a72854f9dedba07abc74
+C
+src/lab3/Graph.java,f\c\fcba8d3b634cbac550054d757340872469f87339

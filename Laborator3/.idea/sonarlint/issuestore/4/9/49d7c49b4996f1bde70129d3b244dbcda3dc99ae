@@ -1,2 +1,7 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8õæ¾Æâ1J$02632d93-0eb8-4913-b6ae-e9303d08af0e
+œ
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚŒğ8ø¯“½ä1J$ee42da5b-54f7-4851-be9e-50cfa7b2ec5e
+p
+java:S1604M"(Make this anonymous inner class a lambda(ı×ùÉşÿÿÿÿ8éï ½ä1J$3336a911-1343-4e39-8295-8f567c06948b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ8ú¯“½ä1J$6bdb9b47-5ed8-48dc-b74b-e61147ba200a
+m	java:S106T"+Replace this use of System.out by a logger.(šñŒ™8‹°“½ä1J$7579b96a-52bb-4ca4-b2b7-928e72e8439f

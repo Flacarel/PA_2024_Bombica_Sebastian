@@ -24,4 +24,11 @@ public class Statue extends Attraction implements Visitable {
     public Statue(Map<LocalDate, TimeInterval> timetable) {
         this.timetable = timetable;
     }
+
+    @Override
+    public String toString() {
+        return "Statue{" + "name=" + getName() + ", description=" + getDescription() + ", image=" + getImage() +
+                ", timetable=" + timetable +
+                '}';
+    }
 }

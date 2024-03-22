@@ -1,3 +1,4 @@
+
 package lab3;
 
 import java.time.LocalDate;
@@ -18,9 +19,20 @@ public class TravelPlan {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Travel Plan: \n");
         for (Map.Entry<Attraction, LocalDate> entry : plan.entrySet()) {
-            sb.append("Attraction: ").append(entry.getKey().getName())
-                    .append(", Date: ").append(entry.getValue()).append("\n");
+            if(entry.getKey() instanceof Church){
+                sb.append("Church: ").append(entry.getKey().getName())
+                        .append(", Date: ").append(entry.getValue()).append("\n");
+            }
+            else if(entry.getKey() instanceof Statue){
+                sb.append("Statue: ").append(entry.getKey().getName())
+                        .append(", Date: ").append(entry.getValue()).append("\n");
+            }
+            else if(entry.getKey() instanceof Concert){
+                sb.append("Concert: ").append(entry.getKey().getName())
+                        .append(", Date: ").append(entry.getValue()).append("\n");
+            }
         }
         return sb.toString();
     }

@@ -24,4 +24,11 @@ public class Church extends Attraction implements Visitable{
     public Church(Map<LocalDate, TimeInterval> timetable) {
         this.timetable = timetable;
     }
+
+    @Override
+    public String toString() {
+        return "Church{" + "name=" + getName() + ", description=" + getDescription() + ", image=" + getImage() +
+                ", timetable=" + timetable +
+                '}';
+    }
 }
