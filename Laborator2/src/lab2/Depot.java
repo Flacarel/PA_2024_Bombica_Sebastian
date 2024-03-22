@@ -2,6 +2,9 @@ package lab2;
 
 import java.util.Arrays;
 
+/**
+ * Depot class represents a depot that contains vehicles.
+ */
 public class Depot {
     private String name;
     private Vehicle[] vehicles;
@@ -25,9 +28,6 @@ public class Depot {
         this.name = name;
     }
 
-    /**
-     * @param vehicles This method sets the vehicles of the depot
-     */
     public void setVehicles(Vehicle... vehicles) {
         Vehicle[] vehicles1 = new Vehicle[vehicles.length];
         int i = 0;

@@ -9,10 +9,17 @@ import java.util.Arrays;
 public class Problem {
     private Depot[] depots;
     private Client[] clients;
+    private int[][] distanceMatrix;
 
     public Problem() {
     }
 
+    /**
+     * Set the depots of the problem.
+     * Make sure that the depots are unique.
+     *
+     * @param depots
+     */
     public void setDepots(Depot... depots) {
         Depot[] depots1 = new Depot[depots.length];
         int i = 0;
@@ -31,6 +38,12 @@ public class Problem {
         this.depots = Arrays.copyOf(depots1, i);
     }
 
+    /**
+     * Set the clients of the problem.
+     * Make sure that the clients are unique.
+     *
+     * @param clients
+     */
     public void setClients(Client... clients) {
         Client[] clients1 = new Client[clients.length];
         int i = 0;
@@ -48,6 +61,7 @@ public class Problem {
         this.clients = Arrays.copyOf(clients1, i);
     }
 
+
     public Depot[] getDepots() {
         return depots;
     }
@@ -56,5 +70,11 @@ public class Problem {
         return clients;
     }
 
+    public int[][] getDistanceMatrix() {
+        return distanceMatrix;
+    }
 
+    public void setDistanceMatrix(int[][] distanceMatrix) {
+        this.distanceMatrix = distanceMatrix;
+    }
 }

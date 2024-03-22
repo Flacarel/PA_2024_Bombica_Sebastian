@@ -1,6 +1,7 @@
 package lab2;
 
 import java.time.LocalTime;
+import java.util.Objects;
 
 /**
  * Client class includes the name, start and end interval and the type of the client
