@@ -1,0 +1,11 @@
+
+m	java:S106B"+Replace this use of System.out by a logger.(Ÿ•Ş²8Œü™®ç1J$2d585e13-4e6f-48c0-96f4-ac5e75299f70
+r	java:S106L"+Replace this use of System.out by a logger.(Œß˜©ıÿÿÿÿ8‘ü™®ç1J$0b9eb28b-a50b-4775-b9bf-fbab6dc26b53
+m	java:S106N"+Replace this use of System.err by a logger.(Š‘Õº8’ü™®ç1J$12511527-a191-46d3-9582-9bdbe3f19bf8
+m	java:S106^"+Replace this use of System.out by a logger.(Ó†Ø»8–ü™®ç1J$8d0b00f8-24e5-4c3c-ad9c-e433afe71855
+r	java:S106a"+Replace this use of System.err by a logger.(ÑÀÂıÿÿÿÿ8—ü™®ç1J$1b4fd2ef-7e5d-4126-ab5f-e858792a5b86
+|
+java:S2864h"4Iterate over the "entrySet" instead of the "keySet".(„ş‰Åúÿÿÿÿ8Æ¯†°ç1J$4d80f23d-245a-4e4b-866a-4de6c35dd381
+m	java:S106j"+Replace this use of System.out by a logger.(êôÃÅ8˜ü™®ç1J$a5495de9-a94e-424d-9a94-2c33561d6c09
+r	java:S106l"+Replace this use of System.out by a logger.(î””µÿÿÿÿÿ8™ü™®ç1J$fe6d4500-6785-4311-8761-0b305863f775
+r	java:S106m"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8šü™®ç1J$d650562b-9439-40cc-9d27-3cd274e4e42d
