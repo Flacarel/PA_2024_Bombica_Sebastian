@@ -1,8 +1,19 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8À¦¸¬æ1J$9081525d-9e95-4824-9a7b-cbd4ba7db4c2
-r	java:S106"+Replace this use of System.out by a logger.(—¢åÌýÿÿÿÿ8Ð¦¸¬æ1J$48bc7660-9a8b-4337-90f5-e1e0e159ea4f
-l	java:S106"+Replace this use of System.out by a logger.(³ˆíF8Ð¦¸¬æ1J$3c5f4e60-26b8-4af8-b0cd-362a4b557018
-r	java:S106"+Replace this use of System.out by a logger.(äÿâˆøÿÿÿÿ8Ð¦¸¬æ1J$c776aca6-4f47-4cbf-811f-b8d511f85663
-r	java:S106"+Replace this use of System.out by a logger.(ÛèÈÊýÿÿÿÿ8Ñ¦¸¬æ1J$84e038d8-4941-49f1-8d59-fc0c0d997ff3
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8À¦¸¬æ1J$9827812b-517a-4f67-809c-b590d6c9bc08
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8†Ðœ¬ç1J$d7e5becf-afb6-42ff-be38-c1f694bd054c
+•
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ŠÐœ¬ç1J$ed72e0e0-24c1-4330-b14e-6f5216c768d6
+
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8ŒÐœ¬ç1J$592eb764-e93a-4438-b784-26f836d86a2c
+•
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ðœ¬ç1J$704f0613-f699-435d-a8de-b5d9270d2ec7
+m	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8‘Ðœ¬ç1J$8b60e215-28e5-4bc8-ac30-616c7d20ffab
+r	java:S106"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8’Ðœ¬ç1J$6d489630-f706-4569-bfe2-ec55d3ccc5c1
+r	java:S106 "+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8“Ðœ¬ç1J$c88bd890-8afd-49ee-8ce7-c924094bb51a
+m	java:S106$"+Replace this use of System.out by a logger.(Ÿÿµî8–Ðœ¬ç1J$148275f1-3cff-4f79-afb7-e7c06f644a55
+r	java:S106)"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8˜Ðœ¬ç1J$fd9092ca-3837-426c-8904-4b40e00f1a84
 `
-java:S2119"Save and re-use this "Random".(¼ÝÅf8ß¦¸¬æ1J$795d1034-ff79-4e0e-815a-c1c95c1cdc2b
+java:S21190"Save and re-use this "Random".(¼ÝÅf8žÐœ¬ç1J$ca7b6044-1bab-4c6a-8192-28252fc11807
+`
+java:S2119Q"Save and re-use this "Random".(¼ÝÅf8©Ðœ¬ç1J$12a67d4d-a5e2-4434-81c9-718be39629bc
+m	java:S106y"+Replace this use of System.out by a logger.(«ò¿8³Ðœ¬ç1J$e34358f8-1f69-40d0-9b4f-504287b095c6

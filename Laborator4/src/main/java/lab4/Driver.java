@@ -1,17 +1,16 @@
 package lab4;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Setter
+@Getter
+@ToString
 public class Driver extends Person{
     Person passenger;
-
-    public Driver(String name, int age, String destination, boolean isDriver) {
-        super(name, age, destination, isDriver);
-    }
-
-    public void setPassenger(Person passenger) {
-        this.passenger = new Person( passenger.getName(), passenger.getAge(), passenger.getDestination(), passenger.isDriver() );
-    }
-
-    public Person getPassenger() {
-        return passenger;
+    public Driver(String name, int age, String destination) {
+        super(name, age, destination);
     }
 }

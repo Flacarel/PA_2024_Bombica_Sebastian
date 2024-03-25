@@ -1,16 +1,16 @@
 package lab4;
 
-import java.util.ArrayList;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 import java.util.List;
 
+@Setter
+@AllArgsConstructor
+@ToString
+@Getter
 public class Road {
-    private List<String> destinations;
-
-    public Road(List<String> destinations) {
-        this.destinations =new ArrayList<>(destinations) ;
-    }
-
-    public List<String> getDestinations() {
-        return destinations;
-    }
+    List<String> stops;
 }
