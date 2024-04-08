@@ -1,30 +1,34 @@
 
-k
-java:S1192!"NDefine a constant instead of duplicating this literal " destination " 3 times.(â’™ù8Œ«²¬ç1
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿJ$106386b7-447b-4a2d-bae7-cbc73390b554
-o
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8´«²¬ç1
-b
-java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(äÛè8¶«²¬ç1
-\
-java:S1612"?Replace this lambda with method reference 'Driver.class::cast'.(äÛè8¶«²¬ç1
-t
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¯¤Ñ¶ÿÿÿÿÿ8¸«²¬ç1
-g
-java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(¯¤Ñ¶ÿÿÿÿÿ8¹«²¬ç1
-a
-java:S1612"?Replace this lambda with method reference 'Driver.class::cast'.(¯¤Ñ¶ÿÿÿÿÿ8¹«²¬ç1
-G	java:S106!"+Replace this use of System.out by a logger.(â’™ù8»«²¬ç1
-L	java:S106#"+Replace this use of System.out by a logger.(éËúøıÿÿÿÿ8¼«²¬ç1
-t
-java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(š›¸›ıÿÿÿÿ8¾«²¬ç1
-t
-java:S6204/"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Á˜›…ùÿÿÿÿ8Á«²¬ç1
-g
-java:S1612/"EReplace this lambda with method reference 'Driver.class::isInstance'.(Á˜›…ùÿÿÿÿ8Â«²¬ç1
-a
-java:S1612/"?Replace this lambda with method reference 'Driver.class::cast'.(Á˜›…ùÿÿÿÿ8Â«²¬ç1
-Q
-java:S28641"4Iterate over the "entrySet" instead of the "keySet".(ÃÀÄÀ8Ã«²¬ç1
-t
-java:S6204?"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‹©—ëüÿÿÿÿ8Ç«²¬ç1
+‘
+java:S1192!"NDefine a constant instead of duplicating this literal " destination " 3 times.(â’™ù8Œ«²¬ç1J$4a12f9d2-851e-4030-ac2e-fbd55b190eaa
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿJ$903a9fd7-b8f2-4a2e-82b6-ed684810c193
+•
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8´«²¬ç1J$6c1cd7a5-8145-47b4-8009-aa41b242b57e
+ˆ
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(äÛè8¶«²¬ç1J$7b9b8df8-c9a0-43f6-9dc7-7c8b0beb1df5
+‚
+java:S1612"?Replace this lambda with method reference 'Driver.class::cast'.(äÛè8¶«²¬ç1J$940f6f24-c2d0-4ceb-85f0-ebd22cc5afa7
+š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¯¤Ñ¶ÿÿÿÿÿ8¸«²¬ç1J$54b707c1-fc10-4ea5-970b-63ca510ed85d
+
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(¯¤Ñ¶ÿÿÿÿÿ8¹«²¬ç1J$2e11e991-59d0-4cc5-a502-f538613703c0
+‡
+java:S1612"?Replace this lambda with method reference 'Driver.class::cast'.(¯¤Ñ¶ÿÿÿÿÿ8¹«²¬ç1J$73dfc69d-d05f-4d60-8142-dd9014e3a80d
+m	java:S106!"+Replace this use of System.out by a logger.(â’™ù8»«²¬ç1J$997cfaea-6080-4fc7-a92b-7949e295d5cb
+r	java:S106#"+Replace this use of System.out by a logger.(éËúøıÿÿÿÿ8¼«²¬ç1J$abca45e5-28fd-4320-a630-5f63247bf116
+š
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(š›¸›ıÿÿÿÿ8¾«²¬ç1J$33a29e37-dd82-4215-a84a-b0b5beb008c7
+š
+java:S62040"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Á˜›…ùÿÿÿÿ8Á«²¬ç1J$24e114b6-e9ce-4e0e-bdf9-37c1479e970b
+
+java:S16120"EReplace this lambda with method reference 'Driver.class::isInstance'.(Á˜›…ùÿÿÿÿ8Â«²¬ç1J$baa9bc1c-b76c-4e03-a7a9-0cf7cd17ee96
+‡
+java:S16120"?Replace this lambda with method reference 'Driver.class::cast'.(Á˜›…ùÿÿÿÿ8Â«²¬ç1J$1ce3c0e3-2dbf-4b1d-ad33-d19fd49bd24c
+w
+java:S28642"4Iterate over the "entrySet" instead of the "keySet".(ÃÀÄÀ8Ã«²¬ç1J$1c41c910-6388-451b-9b48-d83f945281ae
+š
+java:S6204A"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‹©—ëüÿÿÿÿ8Ç«²¬ç1J$d127f806-1331-4819-99dc-9f18831659bb
+m	java:S106V"+Replace this use of System.out by a logger.(Àè…8–“’Óç1J$5f848192-5567-462d-99ab-9e0db49e2796
+ƒ
+java:S1117\";Rename "persons" which hides the field declared at line 17.(Ö¢Ÿ²ûÿÿÿÿ8•“’Óç1J$aa0a7175-7abd-41a7-80a6-2b843cf16f07
+l	java:S106_"+Replace this use of System.out by a logger.(õëÏ"8œø¨Õç1J$c7e367cb-4b05-48da-8748-1bb2118dcae4

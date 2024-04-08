@@ -43,6 +43,7 @@ public class Problem {
     //daca nu, mai caut etc pana gasesc sau nu mai am unde cauta
     //next destination, next driver
     public void matching() {
+        int matchCount=0;
         for (String destination : destinationOfDriver) {
             List<Driver> driversOfDestination = destinationOfPersons.get(destination).stream().filter(person -> person instanceof Driver).map(person -> (Driver) person).collect(Collectors.toList());
             for (Driver driver : driversOfDestination) {
@@ -57,6 +58,7 @@ public class Problem {
                             personsAtDestination.remove(passenger);
                             destinationOfPersons.put(destination, personsAtDestination);
                             found = true;
+                            matchCount++;
                         }
                     }
                     if(!found){
@@ -73,6 +75,7 @@ public class Problem {
                                     personsAtDestination.remove(driver);
                                     destinationOfPersons.put(destination, personsAtDestination);
                                     found = true;
+                                    matchCount++;
                                 }
                             }
                         }
@@ -80,6 +83,19 @@ public class Problem {
                 }
             }
         }
+        System.out.println("Number of matches: "+matchCount);
+    }
+    public void solve() {
+        ProblemGenerator generator = new ProblemGenerator();
+        ProblemSolver solver = new ProblemSolver();
+
+        List<Person> persons = generator.generate(5000, 5000);
+        int maxMatching = solver.solve(persons);
+
+        System.out.println("Maximum cardinality matching: " + maxMatching);
+
+        // Run the greedy algorithm and compare the results
+        // ...
     }
 }
 

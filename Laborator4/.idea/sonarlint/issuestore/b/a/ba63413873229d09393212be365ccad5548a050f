@@ -1,19 +1,21 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8À¦¸¬æ1J$9827812b-517a-4f67-809c-b590d6c9bc08
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8†Ðœ¬ç1J$d7e5becf-afb6-42ff-be38-c1f694bd054c
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³œŸòùÿÿÿÿ8ØÿÏÓç1J$3fd75549-7d4d-4149-a518-32d6bb99d119
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ôÊÀ¾üÿÿÿÿ8èÿÏÓç1J$acdfacf5-1734-4e50-b3ab-6c70f78396a1
 •
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ŠÐœ¬ç1J$ed72e0e0-24c1-4330-b14e-6f5216c768d6
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8…°˜Õç1J$f89408c0-663c-4f1e-87af-efce002a1472
 
-java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8ŒÐœ¬ç1J$592eb764-e93a-4438-b784-26f836d86a2c
+java:S1612"EReplace this lambda with method reference 'Driver.class::isInstance'.(‚åÌ”ûÿÿÿÿ8íÿÏÓç1J$4b05b1e7-2b1f-49ee-9a89-7ea7c1a9103b
 •
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ðœ¬ç1J$704f0613-f699-435d-a8de-b5d9270d2ec7
-m	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8‘Ðœ¬ç1J$8b60e215-28e5-4bc8-ac30-616c7d20ffab
-r	java:S106"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8’Ðœ¬ç1J$6d489630-f706-4569-bfe2-ec55d3ccc5c1
-r	java:S106 "+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8“Ðœ¬ç1J$c88bd890-8afd-49ee-8ce7-c924094bb51a
-m	java:S106$"+Replace this use of System.out by a logger.(Ÿÿµî8–Ðœ¬ç1J$148275f1-3cff-4f79-afb7-e7c06f644a55
-r	java:S106)"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8˜Ðœ¬ç1J$fd9092ca-3837-426c-8904-4b40e00f1a84
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Œ°˜Õç1J$990c54dd-42f3-4c0d-98ff-1f0f90c95b0b
+m	java:S106"+Replace this use of System.out by a logger.(Ÿÿµî8ïÿÏÓç1J$334e8a9d-24b5-4d8a-b7b7-9f3044544d5f
+r	java:S106""+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8ðÿÏÓç1J$549580ae-015f-4920-8a41-07e62719b0ad
+r	java:S106$"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ñÿÏÓç1J$83174a0d-0ea5-4c7f-b596-0f6c2ea0ba1c
+m	java:S106("+Replace this use of System.out by a logger.(Ÿÿµî8òÿÏÓç1J$0d065ced-8670-4c5f-b9e4-b53f81bc3362
+r	java:S106-"+Replace this use of System.out by a logger.(Ñ•¡Ðþÿÿÿÿ8õÿÏÓç1J$2044be99-9fab-43dc-bdd7-373519678b84
 `
-java:S21190"Save and re-use this "Random".(¼ÝÅf8žÐœ¬ç1J$ca7b6044-1bab-4c6a-8192-28252fc11807
+java:S21194"Save and re-use this "Random".(¼ÝÅf8ùÿÏÓç1J$dd4b9ac0-6527-4e07-8d7d-7446eae1f7cd
 `
-java:S2119Q"Save and re-use this "Random".(¼ÝÅf8©Ðœ¬ç1J$12a67d4d-a5e2-4434-81c9-718be39629bc
-m	java:S106y"+Replace this use of System.out by a logger.(«ò¿8³Ðœ¬ç1J$e34358f8-1f69-40d0-9b4f-504287b095c6
+java:S2119U"Save and re-use this "Random".(¼ÝÅf8Œ€ÐÓç1J$820bda8d-3dbf-44cd-902f-5f2a7ee72db2
+m	java:S106w"+Replace this use of System.out by a logger.(«ò¿8‘€ÐÓç1J$80ec2eb3-739f-4583-83fe-3f4e15c97bd8
+~	java:S125v"<This block of commented-out lines of code should be removed.(Õºþó8×ÑÉÕç1J$6eb864fa-e3ec-4b77-a804-9c04c6f84798
+n	java:S106Œ"+Replace this use of System.out by a logger.(ôü‚þ8•€ÐÓç1J$855690e5-3a60-4e45-bc22-33c40bb32132

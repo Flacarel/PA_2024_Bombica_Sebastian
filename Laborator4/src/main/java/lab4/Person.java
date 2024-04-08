@@ -11,4 +11,8 @@ public class Person {
     String name;
     int age;
     String destination;
+
+    public boolean isDriver(Person p) {
+        return p instanceof Driver;
+    }
 }

@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 import com.github.javafaker.Faker;
+import org.jgrapht.Graph;
+import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.graph.SimpleDirectedGraph;
 
 
 public class Main {
@@ -11,6 +14,7 @@ public class Main {
         Main main = new Main();
 //    main.compulsory();
         main.homework();
+        main.bonus();
     }
 
     public void compulsory() {
@@ -83,22 +87,16 @@ public class Main {
         for (int i = 0; i < numberOfPersons; i++) {
             String name = faker.name().fullName();
             int age = random.nextInt(100);
-            // Get the list of roads
             List<Road> roads = roadMap.getRoads();
 
-            // Generate a random index for the roads
             int roadIndex = random.nextInt(roads.size());
 
-            // Get the road at the random index
             Road road = roads.get(roadIndex);
 
-            // Get the list of stops for the selected road
             List<String> stops = road.getStops();
 
-            // Generate a random index for the stops
             int stopIndex = random.nextInt(stops.size());
 
-            // Get the stop at the random index
             String destination = stops.get(stopIndex);
             if (random.nextBoolean()) {
                 persons.add(new Person(name, age, destination));
@@ -111,14 +109,35 @@ public class Main {
 
     public void homework() {
         Problem problem = new Problem();
-        RoadMap roadMap = generateRoadMap(50, 10);
+        RoadMap roadMap = generateRoadMap(10, 10);
         problem.setRoadMap(roadMap);
-        problem.setPersons(generateRandomPersons(200, roadMap));
+        problem.setPersons(generateRandomPersons(5000, roadMap));
         problem.findDestinationsOfDrivers();
         problem.findDestinationsOfPersons();
         problem.matching();
-        problem.printDriverAndPassenger();
+        // problem.printDriverAndPassenger();
         System.out.println(roadMap);
     }
 
+    public void bonus() {
+        ProblemGenerator generator = new ProblemGenerator();
+        List<Person> persons = generator.generate(2500, 2500);
+        Graph<Person, DefaultEdge> graph = new SimpleDirectedGraph<>(DefaultEdge.class);
+        for (Person person : persons) {
+            graph.addVertex(person);
+        }
+        for (Person driver : persons) {
+            if (driver.isDriver(driver)) {
+                for (Person passenger : persons) {
+                    if (!passenger.isDriver(passenger) && Math.random() < 0.1) {
+                        graph.addEdge(driver, passenger);
+                    }
+                }
+            }
+        }
+        ProblemSolver solver = new ProblemSolver();
+        int maxFlow = solver.solve(persons);
+        System.out.println("Matchings: " + maxFlow);
+    }
 }
+
